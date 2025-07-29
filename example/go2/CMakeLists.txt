@@ -19,3 +19,6 @@ target_link_libraries(go2_video_client unitree_sdk2)
 
 add_executable(go2_vui_client go2_vui_client.cpp)
 target_link_libraries(go2_vui_client unitree_sdk2)
+
+add_executable(go2_low_level-test go2_low_level-test.cpp)
+target_link_libraries(go2_low_level-test unitree_sdk2)
